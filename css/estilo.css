@@ -1,0 +1,479 @@
+body{
+    background-color: #151515;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+/* EMPIEZA HEADER */
+header{
+    background: #000;
+    position: sticky;
+    top: 0;
+    z-index: 102;
+}
+.container-ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-size: .9cm;
+    text-shadow: -2.5px 0px 1px #4498C8;
+    color: #fff;
+    margin-left: .8rem;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: .8rem;
+}
+
+.nav-link:hover{
+    color:#4498C8 ;
+}
+
+.active-proyectos{
+    color: #4498C8;
+}
+
+.active-habilidades{
+    color: #4498C8;
+}
+
+.active-sobre-mi{
+    color: #4498C8;
+}
+
+.active-contactame{
+    color: #4498C8;
+}
+
+.navbar-icon{
+    color: #fff;
+}
+
+
+/* TERMINA HEADER */
+
+
+
+
+
+
+
+
+/* EMPIEZA INDEX */
+/* EMPIEZA INDEX */
+/* EMPIEZA INDEX */
+
+
+
+
+/* EMPIEZA MAIN INDEX */
+
+/* EMPIEZA TITULO */
+
+.p-titulo-index{
+    margin-left: 3rem;
+    font-size: 7.5rem;
+    background: -webkit-linear-gradient(45deg, #fff, #4498C8 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-titulo-index{
+    margin-top: 3rem;
+}
+
+/* TERMINA TITULO */
+
+/* EMPIEZA SOBRE MI */
+
+.sobremi-index{
+    color: #fff;
+    background-color: #000;
+    height: 30rem;
+    width: 50rem;
+    font-size: 2.5rem;
+    border-radius: 2.5rem;
+    margin: .5rem;
+    border: 2px solid #4498C8;
+    box-shadow: 9px 11px 16px 1px #4498C8;
+}
+
+.container-sobre-mi{
+    position: absolute;
+    top: 12rem;
+    right: 20rem;
+}
+
+.b-sobre-mi{
+    font-size: 1.8rem;
+    background: -webkit-linear-gradient(45deg, #fff, #4498C8 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    font-size: 2.5rem;
+}
+
+.p-sobremi-index{
+    margin: .8rem;
+    text-shadow: -1px 1px 0px rgba(68,152,200,1);
+}
+
+
+/* TERMINA SOBRE MI */
+
+
+
+
+
+/* EMPIEZA PROYECTOS INDEX */
+
+.proyectos-index{
+    background-color: #000;
+    height: 28rem;
+    margin-top: 8rem;
+}
+
+.container-img-proyectos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.titulo-proyectos-index{
+    color: #fff;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+.titulo-proyectos-index:hover{
+    color: #4498C8 ;
+}
+
+.img-proyectos{
+    border: 2px solid #fff;
+    margin-top: 5px;
+    width: 46.4rem;
+    height: 19.7rem;
+}
+
+
+/* EMPIEZA HABILIDADES */
+
+
+.container-img{
+    background-color: #000;
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.img-hb{
+    width: 30rem;
+    height: 30rem;
+}
+
+.certificado{
+    display: none;
+    width: 20rem;
+    height: 20rem;
+    top: 90rem;
+}
+
+.container-img-html:hover .certificado-html{
+    display: block;
+    position: absolute;
+}
+
+.container-img-css:hover .certificado-css{
+    display: block;
+    position: absolute;
+}
+
+.container-img-js:hover .certificado-js{
+    display: block;
+    position: absolute;
+}
+
+.subtitulo-habilidades{
+    color: #fff;
+    display: inline;
+    position: absolute;
+    left: 3rem;
+    text-decoration: none;
+}
+
+.subtitulo-habilidades:hover{
+    color: #4498C8;
+}
+
+/* TERMINA HABILIDADES */
+
+/* EMPIEZA CONTACTAME */
+
+.titulo-contactame-index{
+    color: #fff;
+    display: inline;
+    position: absolute;
+    left: 3rem;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.titulo-contactame-index:hover{
+    color: #4498C8;
+}
+
+.form-contactame{
+    margin-left: 3rem;
+    margin-top: 7rem;
+    width: 60rem;
+}
+
+.form-input{
+    height: 2.5rem;
+    width: 50.3rem;
+    border: none;
+    border-bottom: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.form-input:focus{
+    background: linear-gradient(to bottom, transparent, #353535);
+    outline: none;
+    border-bottom: 3px solid #4498C8;
+}
+
+.btn {
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    color: #fff;
+    border: 3px solid #fff;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: inherit;
+    margin-left: 42.2rem;
+    margin-bottom: 4rem;
+}
+
+.btn:hover{
+    border: 3px solid #4498C8;
+    color: #fff;
+}
+
+.textarea-index{
+    border: none;
+    border-bottom: 3px solid #fff;
+    background: transparent;
+    resize: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.textarea-index:focus{
+    outline: none;
+    border-bottom: 3px solid #4498C8;
+    background: linear-gradient(to bottom, transparent, #353535);
+}
+
+.img-teamwork{
+    width: 60rem;
+    height: 30rem;
+    margin-left: 110rem;
+    margin-top: -43rem;
+    margin-bottom: 11.5rem;
+}
+
+/* TERMINA CONTACTAME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EMPIEZA PAG PROYECTOS */
+/* EMPIEZA PAG PROYECTOS */
+/* EMPIEZA PAG PROYECTOS */
+
+.container-proyectos{
+    display: grid;
+    grid-template-columns: repeat(autofill,1fr);
+}
+
+.proyectos-img-links{
+    width: 37.8rem;
+    height:29rem;
+    object-fit: cover;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EMPIEZA FOOTER */
+
+footer{
+    background-color: #000;
+    margin-bottom: 0;
+    height: 8rem;
+}
+
+.img-instagram-footer{
+    height: 2rem;
+    width: 4rem;
+}
+
+.ul-footer{
+    list-style: none;
+    display: flex;
+    height: 8rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* TERMINA FOOTER */
