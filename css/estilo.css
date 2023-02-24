@@ -100,6 +100,7 @@ header{
     font-size: 7.5rem;
     background: -webkit-linear-gradient(45deg, #fff, #4498C8 25%);
     -webkit-background-clip: text;
+    background-clip: var() ;
     -webkit-text-fill-color: transparent;
 }
 
@@ -133,6 +134,7 @@ header{
     font-size: 1.8rem;
     background: -webkit-linear-gradient(45deg, #fff, #4498C8 80%);
     -webkit-background-clip: text;
+    background-clip: var() ;
     -webkit-text-fill-color: transparent;
     text-shadow: none;
     font-size: 2.5rem;
@@ -181,6 +183,7 @@ header{
     height: 19.7rem;
 }
 
+/* TERMINA PROYECTOS */
 
 /* EMPIEZA HABILIDADES */
 
@@ -281,7 +284,7 @@ header{
     background-color: transparent;
     text-decoration: none;
     font-family: inherit;
-    margin-left: 42.2rem;
+    margin-left: 42rem;
     margin-bottom: 4rem;
 }
 
@@ -318,33 +321,6 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* EMPIEZA PAG PROYECTOS */
 /* EMPIEZA PAG PROYECTOS */
 /* EMPIEZA PAG PROYECTOS */
@@ -360,98 +336,9 @@ header{
     object-fit: cover;
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.carousel{
+    display: none;
+}
 
 
 
@@ -477,3 +364,143 @@ footer{
 }
 
 /* TERMINA FOOTER */
+
+
+
+
+
+
+
+
+
+/* EMPIEZA TABLET */
+/* EMPIEZA TABLET */
+/* EMPIEZA TABLET */
+
+@media screen and (max-width: 768px){
+
+/* EMPIEZA INDEX */
+/* EMPIEZA INDEX */
+/* EMPIEZA INDEX */
+
+/* EMPIEZA SOBRE MI */
+
+.container-sobre-mi{
+    position: relative;
+    margin-left: 33rem;
+}
+
+.sobremi-index{
+    box-shadow: 0px 11px 16px 1px #4498C8;
+}
+/* TERMINA CONTACTAME */
+
+
+
+
+
+
+/* EMPIEZA PROYECTOS */
+.carousel{
+    display: block;
+    margin-top: 18rem;
+}
+
+.proyectos-index{
+    display: none;
+}
+
+.img-carousel-proyectos{
+    height: 30rem;
+    width: 60rem;
+    margin-left: 8rem;
+}
+/* TERMINA PROYECTOS */
+
+
+/* EMPIEZA HABILIDADES */
+
+.img-hb{
+    width: 25rem ;
+}
+
+.certificado{
+    top: 97rem;
+}
+/* TERMINA HABILIDADES */
+
+
+/* EMPIEZA CONTACTAME */
+
+.form-input{
+    width: 64rem;
+}
+
+.textarea-index{
+    width: 64rem;
+}
+
+.btn{
+    margin-left: 55.7rem;
+}
+
+.img-teamwork{
+    display: none;
+}
+/* TERMINA CONTACTAME */
+
+/* EMPIEZA FOOTER */
+
+.img-footer{
+    height: 3rem;
+}
+
+.img-instagram-footer{
+    height: 2.6rem;
+    width: 4.5rem;
+}
+
+
+
+
+/* EMPIEZA PAG PROYECTOS */
+/* EMPIEZA PAG PROYECTOS */
+/* EMPIEZA PAG PROYECTOS */
+
+.proyectos-img-links{
+    width: 38.2rem;
+    height:22rem;
+    object-fit: cover;
+} 
+
+.proyecto-netflix{
+    width: 76.4rem;
+    height: 22rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
