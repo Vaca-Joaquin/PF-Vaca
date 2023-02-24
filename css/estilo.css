@@ -460,9 +460,6 @@ footer{
     width: 4.5rem;
 }
 
-
-
-
 /* EMPIEZA PAG PROYECTOS */
 /* EMPIEZA PAG PROYECTOS */
 /* EMPIEZA PAG PROYECTOS */
@@ -481,6 +478,56 @@ footer{
 }
 
 
+
+
+@media screen and (max-width: 1024px){
+    
+    /* EMPIEZA SOBRE MI */
+    .container-sobre-mi{
+        position: relative;
+        margin-left: 45rem;
+    }
+    /* TERMINA SOBRE MI */
+    
+    /* EMPIEZA PROYECTOS */
+    .proyectos-index{
+        margin-top: 20rem;
+    }
+    
+    .img-proyectos{
+        width: 33rem;
+    }
+
+    .certificado{
+        top: 134rem;
+    }
+    /* TERMINA PROYECTOS */
+    
+    /* EMPIEZA CONTACTAME */
+    .img-teamwork{
+        display: none;
+    }
+    .form-input{
+        width: 64rem;
+    }
+    
+    .textarea-index{
+        width: 64rem;
+    }
+    
+    .btn{
+        margin-left: 55.7rem;
+    }
+    /* TERMINA CONTACTAME */
+
+    /* EMPIEZA PAG PROYECTOS */
+    /* EMPIEZA PAG PROYECTOS */
+    /* EMPIEZA PAG PROYECTOS */
+
+    .proyectos-img-links{
+        width: 339.5px;
+    }
+}
 
 
 
