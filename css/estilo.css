@@ -253,7 +253,7 @@ header{
     color: #4498C8;
 }
 
-.form-contactame{
+.form-contactame-index{
     margin-left: 3rem;
     margin-top: 7rem;
     width: 60rem;
@@ -267,12 +267,17 @@ header{
     background: transparent;
     color: #fff;
     font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 .form-input:focus{
     background: linear-gradient(to bottom, transparent, #353535);
     outline: none;
     border-bottom: 3px solid #4498C8;
+}
+
+.input-name{
+    margin-left: -.3rem;
 }
 
 .btn {
@@ -286,6 +291,7 @@ header{
     font-family: inherit;
     margin-left: 42rem;
     margin-bottom: 4rem;
+    margin-top: 1rem;
 }
 
 .btn:hover{
@@ -420,7 +426,7 @@ footer{
 }
 
 .certificado{
-    top: 120rem;
+    top: 145rem;
 }
 /* TERMINA HABILIDADES */
 
@@ -441,6 +447,10 @@ footer{
 
 .img-teamwork{
     display: none;
+}
+
+.input-name{
+    margin-left: .1rem;
 }
 /* TERMINA CONTACTAME */
 
@@ -513,7 +523,13 @@ footer{
     .btn{
         margin-left: 55.7rem;
     }
+
+    .input-name{
+    margin-left: .1rem;
+    }
     /* TERMINA CONTACTAME */
+
+
 
     /* EMPIEZA PAG PROYECTOS */
     /* EMPIEZA PAG PROYECTOS */
@@ -523,13 +539,104 @@ footer{
         width: 339.5px;
     }
 }
+    /* TERMINA PAG PROYECTOS */
+    /* TERMINA PAG PROYECTOS */
+    /* TERMINA PAG PROYECTOS */
 
 
 
+    /* EMPIEZA PAG CONTACTAME */
+    /* EMPIEZA PAG CONTACTAME */
+    /* EMPIEZA PAG CONTACTAME */
+    .container-h2-contactame{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        margin-bottom: .5rem;
+    }
+
+    .h2-contactame{
+        color: #fff;
+        font-size: 2.5rem;
+    }
+
+    .container-span-contactame{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .span-contactame{
+        color: #fff;
+    }
+
+    .container-form-contactame{
+        height: 43rem;
+        width: 100%;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 19.5rem;
+        margin-top: 6rem;
+    }
 
 
+    .form-input-contactame{
+        height: 2.5rem;
+        width: 66.5rem;
+        border: none;
+        border-bottom: 3px solid #fff;
+        background: transparent;
+        color: #fff;
+        font-size: 1.2rem;
+        margin-top: 3rem;
+        margin-left: 4rem;
+    }
+
+    .form-input-contactame:focus{
+        background: linear-gradient(to bottom, transparent, #353535);
+        outline: none;
+        border-bottom: 3px solid #4498C8;
+    }
 
 
+    .textarea-contactame{
+        border: none;
+        border-bottom: 3px solid #fff;
+        background: transparent;
+        resize: none;
+        color: #fff;
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+    }
+
+    .textarea-contactame:focus{
+        outline: none;
+        border-bottom: 3px solid #4498C8;
+        background: linear-gradient(to bottom, transparent, #353535);
+    }
+
+    .btn-contactame{
+        width: 66.8rem;
+        margin-left: 3.9rem;
+        height: 3rem;
+        border: none;
+        border-radius: 1.5rem;
+    }
+
+    .btn-contactame:hover{
+        color: #fff;
+        background-color: #4498C8;
+    }
+
+
+    .contactame-correo{
+        position: absolute;
+        top: 62rem;
+        left: 48%;
+        color: #fff;
+    }
 
 
 
