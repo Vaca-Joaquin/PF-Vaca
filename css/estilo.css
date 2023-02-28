@@ -156,7 +156,7 @@ header{
 
 .proyectos-index{
     background-color: #000;
-    height: 28rem;
+    height: 29rem;
     margin-top: 8rem;
 }
 
@@ -170,6 +170,8 @@ header{
     color: #fff;
     margin-left: 3rem;
     text-decoration: none;
+    position: absolute;
+    margin-top: 15px;
 }
 
 .titulo-proyectos-index:hover{
@@ -178,7 +180,7 @@ header{
 
 .img-proyectos{
     border: 2px solid #fff;
-    margin-top: 5px;
+    margin-top: 60px;
     width: 61rem;
     height: 19.7rem;
 }
@@ -325,29 +327,6 @@ header{
 /* TERMINA CONTACTAME */
 
 
-
-
-/* EMPIEZA PAG PROYECTOS */
-/* EMPIEZA PAG PROYECTOS */
-/* EMPIEZA PAG PROYECTOS */
-
-.container-proyectos{
-    display: grid;
-    grid-template-columns: repeat(autofill,1fr);
-}
-
-.proyectos-img-links{
-    width: 37.8rem;
-    height:29rem;
-    object-fit: cover;
-} 
-
-.carousel{
-    display: none;
-}
-
-
-
 /* EMPIEZA FOOTER */
 
 footer{
@@ -371,178 +350,28 @@ footer{
 
 /* TERMINA FOOTER */
 
+    /* EMPIEZA PAG PROYECTOS */
+    /* EMPIEZA PAG PROYECTOS */
+    /* EMPIEZA PAG PROYECTOS */
 
-
-
-
-
-
-
-
-/* EMPIEZA TABLET */
-/* EMPIEZA TABLET */
-/* EMPIEZA TABLET */
-
-@media screen and (min-width: 768px) and (max-width:769px){
-
-/* EMPIEZA INDEX */
-/* EMPIEZA INDEX */
-/* EMPIEZA INDEX */
-
-/* EMPIEZA SOBRE MI */
-
-.container-sobre-mi{
-    position: relative;
-    margin-left: 33rem;
+.container-proyectos{
+    display: grid;
+    grid-template-columns: repeat(autofill,1fr);
 }
-
-.sobremi-index{
-    box-shadow: 0px 11px 16px 1px #4498C8;
-}
-/* TERMINA CONTACTAME */
-
-/* EMPIEZA PROYECTOS */
-.carousel{
-    display: block;
-    margin-top: 18rem;
-}
-
-.proyectos-index{
-    display: none;
-}
-
-.img-carousel-proyectos{
-    height: 30rem;
-    width: 60rem;
-    margin-left: 8rem;
-}
-/* TERMINA PROYECTOS */
-
-
-/* EMPIEZA HABILIDADES */
-
-.img-hb{
-    width: 25rem ;
-}
-
-.certificado{
-    top: 145rem;
-}
-/* TERMINA HABILIDADES */
-
-
-/* EMPIEZA CONTACTAME */
-
-.form-input{
-    width: 64rem;
-}
-
-.textarea-index{
-    width: 64rem;
-}
-
-.btn{
-    margin-left: 55.7rem;
-}
-
-.img-teamwork{
-    display: none;
-}
-
-.input-name{
-    margin-left: .1rem;
-}
-/* TERMINA CONTACTAME */
-
-/* EMPIEZA FOOTER */
-
-.img-footer{
-    height: 3rem;
-}
-
-.img-instagram-footer{
-    height: 2.6rem;
-    width: 4.5rem;
-}
-
-/* EMPIEZA PAG PROYECTOS */
-/* EMPIEZA PAG PROYECTOS */
-/* EMPIEZA PAG PROYECTOS */
 
 .proyectos-img-links{
-    width: 38.2rem;
-    height:22rem;
+    width: 37.8rem;
+    height:29rem;
     object-fit: cover;
 } 
 
-.proyecto-netflix{
-    width: 76.4rem;
-    height: 22rem;
+.carousel{
+    display: none;
 }
 
-}
-
-
-
-
-@media screen and (min-width: 1024px) and (max-width:1025px){
-    
-    /* EMPIEZA SOBRE MI */
-    .container-sobre-mi{
-        position: relative;
-        margin-left: 45rem;
-    }
-    /* TERMINA SOBRE MI */
-    
-    /* EMPIEZA PROYECTOS */
-    .proyectos-index{
-        margin-top: 20rem;
-    }
-    
-    .img-proyectos{
-        width: 33rem;
-    }
-
-    .certificado{
-        top: 134rem;
-    }
-    /* TERMINA PROYECTOS */
-    
-    /* EMPIEZA CONTACTAME */
-    .img-teamwork{
-        display: none;
-    }
-    .form-input{
-        width: 64rem;
-    }
-    
-    .textarea-index{
-        width: 64rem;
-    }
-    
-    .btn{
-        margin-left: 55.7rem;
-    }
-
-    .input-name{
-    margin-left: .1rem;
-    }
-    /* TERMINA CONTACTAME */
-
-
-
-    /* EMPIEZA PAG PROYECTOS */
-    /* EMPIEZA PAG PROYECTOS */
-    /* EMPIEZA PAG PROYECTOS */
-
-    .proyectos-img-links{
-        width: 339.5px;
-    }
-}
     /* TERMINA PAG PROYECTOS */
     /* TERMINA PAG PROYECTOS */
     /* TERMINA PAG PROYECTOS */
-
 
 
     /* EMPIEZA PAG CONTACTAME */
@@ -637,6 +466,194 @@ footer{
         left: 48%;
         color: #fff;
     }
+
+    /* TERMINA PAG CONTACTAME */
+    /* TERMINA PAG CONTACTAME */
+    /* TERMINA PAG CONTACTAME */
+
+
+
+
+
+/* EMPIEZA MEDIA QUERIE TABLET 768PX */
+
+@media screen and (min-width: 768px) and (max-width:769px){
+
+/* EMPIEZA INDEX */
+
+/* EMPIEZA SOBRE MI */
+
+.container-sobre-mi{
+    position: relative;
+    margin-left: 33rem;
+}
+
+.sobremi-index{
+    box-shadow: 0px 11px 16px 1px #4498C8;
+}
+/* TERMINA CONTACTAME */
+
+/* EMPIEZA PROYECTOS */
+.carousel{
+    display: block;
+    margin-top: 18rem;
+}
+
+.proyectos-index{
+    display: none;
+}
+
+.img-carousel-proyectos{
+    height: 30rem;
+    width: 60rem;
+    margin-left: 8rem;
+}
+
+.titulo-proyectos-index{
+    position: relative;
+    top: 17rem;
+    left: .1rem;
+}
+/* TERMINA PROYECTOS */
+
+
+/* EMPIEZA HABILIDADES */
+
+.img-hb{
+    width: 25rem ;
+}
+
+.certificado{
+    top: 148rem;
+}
+/* TERMINA HABILIDADES */
+
+
+/* EMPIEZA CONTACTAME */
+
+.form-input{
+    width: 64rem;
+}
+
+.textarea-index{
+    width: 64rem;
+}
+
+.btn{
+    margin-left: 55.7rem;
+}
+
+.img-teamwork{
+    display: none;
+}
+
+.input-name{
+    margin-left: .1rem;
+}
+/* TERMINA CONTACTAME */
+
+/* EMPIEZA FOOTER */
+
+.img-footer{
+    height: 3rem;
+}
+
+.img-instagram-footer{
+    height: 2.6rem;
+    width: 4.5rem;
+}
+
+/* EMPIEZA PAG PROYECTOS */
+
+.proyectos-img-links{
+    width: 38.2rem;
+    height:22rem;
+    object-fit: cover;
+} 
+
+.proyecto-netflix{
+    width: 76.4rem;
+    height: 22rem;
+}
+
+}
+
+/* TERMINA MEDIA QUERIE TABLET 768PX */
+
+
+
+/* EMPIEZA MEDIA QUERIE TABLET 1024PX */
+
+@media screen and (min-width: 1024px) and (max-width:1025px){
+    
+    /* EMPIEZA SOBRE MI */
+    .container-sobre-mi{
+        position: relative;
+        margin-left: 45rem;
+    }
+    /* TERMINA SOBRE MI */
+    
+    /* EMPIEZA PROYECTOS */
+    .proyectos-index{
+        margin-top: 20rem;
+    }
+    
+    .img-proyectos{
+        width: 33rem;
+    }
+
+    .certificado{
+        top: 136rem;
+    }
+    /* TERMINA PROYECTOS */
+    
+    /* EMPIEZA CONTACTAME */
+    .img-teamwork{
+        display: none;
+    }
+    .form-input{
+        width: 64rem;
+    }
+    
+    .textarea-index{
+        width: 64rem;
+    }
+    
+    .btn{
+        margin-left: 55.7rem;
+    }
+
+    .input-name{
+    margin-left: .1rem;
+    }
+    /* TERMINA CONTACTAME */
+
+
+    /* EMPIEZA PAG PROYECTOS */
+
+    .proyectos-img-links{
+        width: 339.5px;
+    }
+}
+    /* TERMINA PAG PROYECTOS */
+
+    /* TERMINA MEDIA QUERIE TABLET 1024PX */
+
+
+    /* EMPIEZA MEDIA QUERIE CELULAR 576px*/
+
+    @media screen and (min-width: 375px) and (max-width:415px){
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
