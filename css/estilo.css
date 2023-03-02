@@ -370,9 +370,63 @@ footer{
     /* TERMINA PAG PROYECTOS */
     /* TERMINA PAG PROYECTOS */
 
+    /* EMPIEZA PAG HABILIDADES */
+    /* EMPIEZA PAG HABILIDADES */
+    /* EMPIEZA PAG HABILIDADES */
 
+    .img-pag-hb{
+        width: 7rem;
+        height: 7rem;
+    }
 
+    .container-titulo-habilidades{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
 
+    .titulo-habilidades{
+        color: #fff;
+        font-size: 2.5rem;
+    }
+
+    .container-subtitulo-frontend{
+        display: flex;
+        width: 2.2em;
+        display: inline-block;
+    }
+
+    .container-texto-habilidades{
+        width: 50rem;
+        height: 62rem;
+        border: 2px solid #4498C8;
+        box-shadow: -9px 11px 16px 1px #4498C8;
+        background-color: #000;
+        border-radius: 1.4rem;
+        color: #fff;
+        margin-top: 4rem;
+        margin-left: 12rem;
+        margin-bottom: 4.5rem;
+        display: inline-block;
+    }
+
+    .texto-habilidades{
+        font-size: 2.2rem;
+        margin: .7rem;
+    }
+
+    .habilidades-frontend{
+        background: #CF1500;
+        background: linear-gradient(to bottom, #CF1500 12.5%, #0008FF 25%, #00FF00 37.5%, #FFFF24 50%, #A759FF 62.5%, #FF458F 75%, #FF875C 87.5%, #00CFCF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+
+    }
+
+    .container-all-habilidades{
+        display: inline-block;
+    }
     /* EMPIEZA PAG SOBREMI */
     /* EMPIEZA PAG SOBREMI */
     /* EMPIEZA PAG SOBREMI */
@@ -385,6 +439,7 @@ footer{
 
     .titulo-sobremi{
         color: #fff;
+        font-size: 2.5rem;
     }
 
     .container-texto-sobremi{
@@ -427,8 +482,9 @@ footer{
         display: flex;
         justify-content: space-evenly;
     }
-
-
+    /* TERMINA PAG SOBREMI */
+    /* TERMINA PAG SOBREMI */
+    /* TERMINA PAG SOBREMI */
 
 
     /* EMPIEZA PAG CONTACTAME */
