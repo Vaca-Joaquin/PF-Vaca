@@ -181,8 +181,12 @@ header{
 .img-proyectos{
     border: 2px solid #fff;
     margin-top: 60px;
-    width: 61rem;
+    width: 55rem;
     height: 19.7rem;
+}
+
+.carousel{
+    display: none;
 }
 
 /* TERMINA PROYECTOS */
@@ -208,7 +212,7 @@ header{
     display: none;
     width: 20rem;
     height: 20rem;
-    top: 90rem;
+    top: 92rem;
 }
 
 .container-img-html:hover .certificado-html{
@@ -308,20 +312,13 @@ header{
     resize: none;
     color: #fff;
     font-size: 1.2rem;
+    width: 50.3rem;
 }
 
 .textarea-index:focus{
     outline: none;
     border-bottom: 3px solid #4498C8;
     background: linear-gradient(to bottom, transparent, #353535);
-}
-
-.img-teamwork{
-    width: 60rem;
-    height: 30rem;
-    margin-left: 110rem;
-    margin-top: -43rem;
-    margin-bottom: 11.5rem;
 }
 
 /* TERMINA CONTACTAME */
@@ -374,11 +371,6 @@ footer{
     /* EMPIEZA PAG HABILIDADES */
     /* EMPIEZA PAG HABILIDADES */
 
-    .img-pag-hb{
-        width: 7rem;
-        height: 7rem;
-    }
-
     .container-titulo-habilidades{
         display: flex;
         justify-content: center;
@@ -388,12 +380,6 @@ footer{
     .titulo-habilidades{
         color: #fff;
         font-size: 2.5rem;
-    }
-
-    .container-subtitulo-frontend{
-        display: flex;
-        width: 2.2em;
-        display: inline-block;
     }
 
     .container-texto-habilidades{
@@ -416,16 +402,33 @@ footer{
     }
 
     .habilidades-frontend{
-        background: #CF1500;
-        background: linear-gradient(to bottom, #CF1500 12.5%, #0008FF 25%, #00FF00 37.5%, #FFFF24 50%, #A759FF 62.5%, #FF458F 75%, #FF875C 87.5%, #00CFCF 100%);
+        background: -webkit-linear-gradient(45deg, #fff, #4498C8 70%);
         -webkit-background-clip: text;
+        background-clip: var() ;
         -webkit-text-fill-color: transparent;
-        font-size: 3rem;
+        font-size: 6rem;
+        position: absolute;
+        margin-top: -68rem;
+        margin-left: 120rem;
 
     }
 
     .container-all-habilidades{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: -60rem;
+        margin-left: 134rem;
+    }
+
+    .titulo-habilidad{
+        color: #fff;
+        margin-left: 5rem;
+    }
+
+    .img-pag-hb{
+        width: 17rem;
+        height: 17rem;
     }
     /* EMPIEZA PAG SOBREMI */
     /* EMPIEZA PAG SOBREMI */
@@ -572,17 +575,6 @@ footer{
         background-color: #4498C8;
     }
 
-
-    .contactame-correo{
-        position: absolute;
-        top: 62rem;
-        left: 48%;
-        color: #fff;
-    }
-
-    .container-correo-contactame{
-    }
-
     /* TERMINA PAG CONTACTAME */
     /* TERMINA PAG CONTACTAME */
     /* TERMINA PAG CONTACTAME */
@@ -659,9 +651,6 @@ footer{
     margin-left: 55.7rem;
 }
 
-.img-teamwork{
-    display: none;
-}
 
 .input-name{
     margin-left: .1rem;
@@ -715,7 +704,7 @@ footer{
     }
     
     .img-proyectos{
-        width: 33rem;
+        width: 28rem;
     }
 
     .certificado{
@@ -724,9 +713,6 @@ footer{
     /* TERMINA PROYECTOS */
     
     /* EMPIEZA CONTACTAME */
-    .img-teamwork{
-        display: none;
-    }
     .form-input{
         width: 64rem;
     }
