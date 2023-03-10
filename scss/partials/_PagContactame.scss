@@ -1,0 +1,81 @@
+.container-h2-contactame{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+}
+
+.h2-contactame{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.container-span-contactame{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.span-contactame{
+    color: #fff;
+}
+
+.container-form-contactame{
+    height: 43rem;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19.5rem;
+    margin-top: 6rem;
+}
+
+
+.form-input-contactame{
+    height: 2.5rem;
+    width: 66.5rem;
+    border: none;
+    border-bottom: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.form-input-contactame:focus{
+    background: linear-gradient(to bottom, transparent, #353535);
+    outline: none;
+    border-bottom: 3px solid #4498C8;
+}
+
+
+.textarea-contactame{
+    border: none;
+    border-bottom: 3px solid #fff;
+    background: transparent;
+    resize: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+
+.textarea-contactame:focus{
+    outline: none;
+    border-bottom: 3px solid #4498C8;
+    background: linear-gradient(to bottom, transparent, #353535);
+}
+
+.btn-contactame{
+    width: 66.8rem;
+    margin-left: 3.9rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.btn-contactame:hover{
+    color: #fff;
+    background-color: #4498C8;
+}

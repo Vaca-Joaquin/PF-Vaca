@@ -1,0 +1,10 @@
+.container-proyectos{
+    display: grid;
+    grid-template-columns: repeat(autofill,1fr);
+}
+
+.proyectos-img-links{
+    width: 37.8rem;
+    height:29rem;
+    object-fit: cover;
+} 

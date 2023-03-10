@@ -1,0 +1,56 @@
+    header{
+    background: #000;
+    position: sticky;
+    top: 0;
+    z-index: 102;
+}
+.container-ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-size: .9cm;
+    text-shadow: -2.5px 0px 1px #4498C8;
+    color: #fff;
+    margin-left: .8rem;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: .8rem;
+}
+
+.nav-link:hover{
+    color:#4498C8 ;
+}
+
+.active-proyectos{
+    color: #4498C8;
+}
+
+.active-habilidades{
+    color: #4498C8;
+}
+
+.active-sobre-mi{
+    color: #4498C8;
+}
+
+.active-contactame{
+    color: #4498C8;
+}
+
+.navbar-icon{
+    color: #fff;
+}

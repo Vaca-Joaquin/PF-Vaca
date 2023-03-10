@@ -1,0 +1,18 @@
+    footer {
+        background-color: #000;
+        margin-bottom: 0;
+        height: 8rem;
+        
+        ul{
+            list-style: none;
+            display: flex;
+            height: 8rem;
+            justify-content: space-around;
+            align-items: center;
+        
+            .img-instagram-footer {
+                height: 2rem;
+                width: 4rem;
+                }
+        }
+    }

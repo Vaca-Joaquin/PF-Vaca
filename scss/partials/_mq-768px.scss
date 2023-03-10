@@ -1,0 +1,97 @@
+@media screen and (min-width: 768px) and (max-width:769px){
+
+    /* EMPIEZA INDEX */
+    
+    /* EMPIEZA SOBRE MI */
+    
+    .container-sobre-mi{
+        position: relative;
+        margin-left: 33rem;
+    }
+    
+    .sobremi-index{
+        box-shadow: 0px 11px 16px 1px #4498C8;
+    }
+    /* TERMINA CONTACTAME */
+    
+    /* EMPIEZA PROYECTOS */
+    .carousel{
+        display: block;
+        margin-top: 18rem;
+    }
+    
+    .proyectos-index{
+        display: none;
+    }
+    
+    .img-carousel-proyectos{
+        height: 30rem;
+        width: 60rem;
+        margin-left: 8rem;
+    }
+    
+    .titulo-proyectos-index{
+        position: relative;
+        top: 17rem;
+        left: .1rem;
+    }
+    /* TERMINA PROYECTOS */
+    
+    
+    /* EMPIEZA HABILIDADES */
+    
+    .img-hb{
+        width: 25rem ;
+    }
+    
+    .certificado{
+        top: 148rem;
+    }
+    /* TERMINA HABILIDADES */
+    
+    
+    /* EMPIEZA CONTACTAME */
+    
+    .form-input{
+        width: 64rem;
+    }
+    
+    .textarea-index{
+        width: 64rem;
+    }
+    
+    .btn{
+        margin-left: 55.7rem;
+    }
+    
+    
+    .input-name{
+        margin-left: .1rem;
+    }
+    /* TERMINA CONTACTAME */
+    
+    /* EMPIEZA FOOTER */
+    
+    .img-footer{
+        height: 3rem;
+    }
+    
+    .img-instagram-footer{
+        height: 2.6rem;
+        width: 4.5rem;
+    }
+    
+    /* EMPIEZA PAG PROYECTOS */
+    
+    .proyectos-img-links{
+        width: 38.2rem;
+        height:22rem;
+        object-fit: cover;
+    } 
+    
+    .proyecto-netflix{
+        width: 76.4rem;
+        height: 22rem;
+    }
+    
+    }
