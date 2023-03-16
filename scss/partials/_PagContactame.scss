@@ -1,3 +1,5 @@
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
 .container-h2-contactame{
     display: flex;
     justify-content: center;
@@ -23,10 +25,9 @@
 .container-form-contactame{
     height: 43rem;
     width: 100%;
-    background-color: #000;
+    background-color: $mainBlack;
     display: flex;
     justify-content: center;
-    margin-bottom: 19.5rem;
     margin-top: 6rem;
 }
 
@@ -46,7 +47,7 @@
 .form-input-contactame:focus{
     background: linear-gradient(to bottom, transparent, #353535);
     outline: none;
-    border-bottom: 3px solid #4498C8;
+    border-bottom: 3px solid $mainLightBlue;
 }
 
 
@@ -63,7 +64,7 @@
 
 .textarea-contactame:focus{
     outline: none;
-    border-bottom: 3px solid #4498C8;
+    border-bottom: 3px solid $mainLightBlue;
     background: linear-gradient(to bottom, transparent, #353535);
 }
 
@@ -77,5 +78,5 @@
 
 .btn-contactame:hover{
     color: #fff;
-    background-color: #4498C8;
+    background-color: $mainLightBlue;
 }

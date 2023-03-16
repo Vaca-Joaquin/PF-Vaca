@@ -1,4 +1,5 @@
-
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
 .container-titulo-sobremi{
     display: flex;
     justify-content: center;
@@ -14,17 +15,17 @@
     width: 50rem;
     height: 62rem;
     display: inline-block;
-    border: 2px solid #4498C8;
-    box-shadow: -9px 11px 16px 1px #4498C8;
-    background-color: #000;
+    border: 2px solid $mainLightBlue;
+    box-shadow: -9px 11px 16px 1px $mainLightBlue;
+    background-color: $mainBlack;
     border-radius: 1.4rem;
     color: #fff;
     margin-top: 1.5rem;
 }
 
 .texto-sobremi{
-    font-size: 1.5rem;
-    margin: .8rem;
+    font-size: 2.5rem;
+    margin: 1.5rem;
 }
 
 .container-texto-hobbies{
@@ -32,9 +33,9 @@
     width: 50rem;
     height: 62rem;
     display: inline-block;
-    border: 2px solid #4498C8;
-    box-shadow: 9px 11px 16px 1px #4498C8;
-    background-color: #000;
+    border: 2px solid $mainLightBlue;
+    box-shadow: 9px 11px 16px 1px $mainLightBlue;
+    background-color: $mainBlack;
     color: #fff;
     border-radius: 1.4rem;
     margin-bottom: 7.6rem;
@@ -42,8 +43,8 @@
 }
 
 .texto-hobbies{
-    font-size: 1.5rem;
-    margin: .8rem;
+    font-size: 2.5rem;
+    margin: 1.5rem;
 }
 
 .container-textos{

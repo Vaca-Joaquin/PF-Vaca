@@ -1,9 +1,11 @@
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
 @media screen and (min-width: 1024px) and (max-width:1025px){
-    
+
     /* EMPIEZA SOBRE MI */
     .container-sobre-mi{
-        position: relative;
-        margin-left: 45rem;
+        margin-left: 25rem;
+        margin-top: 9rem;
     }
     /* TERMINA SOBRE MI */
     
@@ -18,6 +20,20 @@
 
     .certificado{
         top: 136rem;
+    }
+
+    .carousel{
+        display: block;
+        margin-top: 12rem;
+    }
+        
+    .img-carousel-proyectos{
+        height: 30rem;
+        width: 85rem;
+        margin-left: 8.7rem;
+    }
+    .proyectos-index{
+        display: none;
     }
     /* TERMINA PROYECTOS */
     
@@ -44,5 +60,10 @@
 
     .proyectos-img-links{
         width: 339.5px;
+    }
+
+    /*EMPIEZA PAG CONTACTAME  */
+    .btn-contactame{
+        width: 65.8rem;
     }
 }

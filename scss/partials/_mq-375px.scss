@@ -1,8 +1,9 @@
-
-@media screen and (min-width: 375px) and (max-width:378px){
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
+@media screen and (min-width: 374px) and (max-width: 380px){
     /* EMPIEZA MAIN TITULO */
     .p-titulo-index{
-        font-size: 4rem;
+        font-size: 1rem;
     }
     /* TERMINA MAIN TITULO */
 
@@ -39,9 +40,7 @@
     }
     
     .titulo-proyectos-index{
-        position: relative;
-        top: 45rem;
-        left: .5rem;
+        color: #4498C8;
     }
     /* TERMINA INDEX */
 

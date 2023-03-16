@@ -1,3 +1,6 @@
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
+
 .container-titulo-habilidades{
     display: flex;
     justify-content: center;
@@ -12,9 +15,9 @@
 .container-texto-habilidades{
     width: 50rem;
     height: 62rem;
-    border: 2px solid #4498C8;
-    box-shadow: -9px 11px 16px 1px #4498C8;
-    background-color: #000;
+    border: 2px solid $mainLightBlue;
+    box-shadow: -9px 11px 16px 1px $mainLightBlue;
+    background-color: $mainBlack;
     border-radius: 1.4rem;
     color: #fff;
     margin-top: 4rem;
@@ -29,7 +32,7 @@
 }
 
 .habilidades-frontend{
-    background: -webkit-linear-gradient(45deg, #fff, #4498C8 70%);
+    background: -webkit-linear-gradient(45deg, #fff, $mainLightBlue 70%);
     -webkit-background-clip: text;
     background-clip: var() ;
     -webkit-text-fill-color: transparent;

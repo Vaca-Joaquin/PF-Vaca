@@ -1,19 +1,18 @@
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
 @media screen and (min-width: 768px) and (max-width:769px){
-
     /* EMPIEZA INDEX */
-    
     /* EMPIEZA SOBRE MI */
     
     .container-sobre-mi{
-        position: relative;
-        margin-left: 33rem;
+        margin-left: 12.5rem;
+        margin-top: 10rem;
     }
     
     .sobremi-index{
-        box-shadow: 0px 11px 16px 1px #4498C8;
+        box-shadow: 0px 11px 16px 1px $mainLightBlue;
     }
     /* TERMINA CONTACTAME */
-    
     /* EMPIEZA PROYECTOS */
     .carousel{
         display: block;
@@ -36,8 +35,6 @@
         left: .1rem;
     }
     /* TERMINA PROYECTOS */
-    
-    
     /* EMPIEZA HABILIDADES */
     
     .img-hb{
@@ -48,8 +45,6 @@
         top: 148rem;
     }
     /* TERMINA HABILIDADES */
-    
-    
     /* EMPIEZA CONTACTAME */
     
     .form-input{
@@ -92,6 +87,15 @@
     .proyecto-netflix{
         width: 76.4rem;
         height: 22rem;
+    }
+
+    /* EMPIEZA PAG CONTACTAME */
+    .form-contactame{
+        margin-left: -3rem;
+    }
+
+    .btn-contactame{
+        width: 66rem;
     }
     
     }

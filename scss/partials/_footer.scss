@@ -1,5 +1,7 @@
-    footer {
-        background-color: #000;
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
+footer {
+    background-color: $mainBlack;
         margin-bottom: 0;
         height: 8rem;
         
@@ -15,4 +17,9 @@
                 width: 4rem;
                 }
         }
+    }
+
+    .footer-contactame{
+        position: fixed;
+        bottom: 0;
     }

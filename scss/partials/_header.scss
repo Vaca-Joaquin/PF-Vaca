@@ -1,5 +1,7 @@
-    header{
-    background: #000;
+$mainBlack: #000;
+$mainLightBlue: #4498C8;
+header{
+    background: $mainBlack;
     position: sticky;
     top: 0;
     z-index: 102;
@@ -11,7 +13,7 @@
 
 .navbar-brand{
     font-size: .9cm;
-    text-shadow: -2.5px 0px 1px #4498C8;
+    text-shadow: -2.5px 0px 1px $mainLightBlue;
     color: #fff;
     margin-left: .8rem;
 }
@@ -32,23 +34,23 @@
 }
 
 .nav-link:hover{
-    color:#4498C8 ;
+    color: $mainLightBlue;
 }
 
 .active-proyectos{
-    color: #4498C8;
+    color: $mainLightBlue;
 }
 
 .active-habilidades{
-    color: #4498C8;
+    color: $mainLightBlue;
 }
 
 .active-sobre-mi{
-    color: #4498C8;
+    color: $mainLightBlue;
 }
 
 .active-contactame{
-    color: #4498C8;
+    color: $mainLightBlue;
 }
 
 .navbar-icon{
