@@ -299,11 +299,6 @@ footer ul .img-instagram-footer {
   width: 4rem;
 }
 
-.footer-contactame {
-  position: fixed;
-  bottom: 0;
-}
-
 .container-proyectos {
   display: grid;
   grid-template-columns: repeat(autofill, 1fr);
@@ -557,6 +552,10 @@ footer ul .img-instagram-footer {
   .btn-contactame {
     width: 65.8rem;
   }
+  .footer-contactame {
+    position: fixed;
+    bottom: 0;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 769px) {
   /* EMPIEZA INDEX */
@@ -635,29 +634,40 @@ footer ul .img-instagram-footer {
   .btn-contactame {
     width: 66rem;
   }
+  .footer-contactame {
+    position: fixed;
+    bottom: 0;
+  }
 }
 @media screen and (min-width: 410px) and (max-width: 415px) {
+  body {
+    overflow-x: hidden;
+  }
   /* EMPIEZA MAIN TITULO */
   .container-titulo-index .p-titulo-index {
     font-size: 4.5rem;
   }
   /* TERMINA MAIN TITULO */
   /* EMPIEZA SOBRE MI */
-  .sobremi-index {
-    height: 25rem;
-    width: 30rem;
-    display: none;
+  .container-sobre-mi {
+    margin-left: 3rem;
+    margin-top: 10rem;
+  }
+  .container-sobre-mi .sobremi-index {
+    width: 35rem;
+    height: 31.5rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
   }
   .p-sobremi-index {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
-  .p-sobremi-index b {
-    font-size: 1.7rem;
+  .b-sobre-mi {
+    font-size: 1rem;
   }
   /* EMPIEZA PROYECTOS */
   .carousel {
     display: block;
-    margin-top: 46rem;
+    margin-top: 16rem;
   }
   .proyectos-index {
     display: none;
@@ -668,9 +678,7 @@ footer ul .img-instagram-footer {
     margin-left: 3.8rem;
   }
   .titulo-proyectos-index {
-    position: relative;
-    top: 45rem;
-    left: 0.5rem;
+    display: block;
   }
   /* TERMINA PROYECTOS */
   /* EMPIEZA HABILIDADES */
@@ -678,27 +686,28 @@ footer ul .img-instagram-footer {
     display: flex;
     flex-direction: column;
     margin-top: 17rem;
-    height: 80rem;
+    height: 94rem;
   }
   .container-img img {
     margin-left: 5.8rem;
   }
-  .img-html {
-    margin-top: 18rem;
+  .subtitulo-habilidades {
+    margin-left: 16rem;
   }
-  /*     .subtitulo-habilidades{
-          as;
-      } */
   .certificado {
     display: none;
   }
+  .certificado-css {
+    top: 136rem;
+    right: 10.5rem;
+  }
   .certificado-js {
-    top: 150rem;
-    right: 10rem;
+    top: 168rem;
+    right: 10.5rem;
   }
   .certificado-html {
-    right: 10rem;
-    top: 95rem;
+    right: 10.5rem;
+    top: 105rem;
   }
   /* TERMINA HABILIDADES */
   /* EMPIEZA CONTACTAME */
@@ -713,40 +722,71 @@ footer ul .img-instagram-footer {
   }
   .form-contactame-index {
     width: 10rem;
-    margin-top: 20rem;
+    margin-top: 22rem;
   }
-  .h2-contactame {
-    margin-top: 16rem;
+  .h2-contactame-index {
+    margin: 17rem;
     margin-left: -0.5rem;
   }
   /* EMPIEZA PAG PROYECTOS */
   .proyectos-img-links {
     width: 100%;
   }
+  /* TERMINA PAG PROYECTOS */
+  /* EMPIEZA PAG CONTACTAME */
+  .form-input-contactame {
+    width: 33rem;
+    margin-right: 4.3rem;
+  }
+  .textarea-contactame {
+    width: 33rem;
+    margin-right: 4.3rem;
+  }
+  .btn-contactame {
+    width: 33.5rem;
+    margin-left: 3.4rem;
+  }
+  .form-contactame {
+    width: 41.14rem;
+    margin-bottom: 10rem;
+  }
+  .container-form-contactame {
+    height: 47rem;
+  }
+  .footer-contactame {
+    margin-top: 8rem;
+  }
+  /* TERMINA PAG CONTACTAME */
 }
-@media screen and (min-width: 374px) and (max-width: 380px) {
+@media screen and (min-width: 375px) and (max-width: 378px) {
   /* EMPIEZA MAIN TITULO */
-  .p-titulo-index {
-    font-size: 1rem;
+  .container-titulo-index .p-titulo-index {
+    font-size: 4rem;
   }
   /* TERMINA MAIN TITULO */
   /* EMPIEZA SOBRE MI */
-  .sobremi-index {
-    height: 25rem;
+  .container-sobre-mi {
+    margin-left: 3.3rem;
+    margin-top: 10rem;
+  }
+  .container-sobre-mi .sobremi-index {
     width: 30rem;
-    margin-top: 38rem;
-    margin-right: -16rem;
+    height: 27.5rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
   }
   .p-sobremi-index {
     font-size: 1.7rem;
   }
-  .p-sobremi-index b {
-    font-size: 1.7rem;
+  .container-sobre-mi .sobremi-index .p-sobremi-index .b-sobre-mi {
+    font-size: 2rem;
   }
   /* EMPIEZA PROYECTOS */
   .carousel {
     display: block;
-    margin-top: 46rem;
+    margin-top: 15rem;
+  }
+  .subtitulo-habilidades {
+    margin-left: 16rem;
   }
   .proyectos-index {
     display: none;
@@ -799,84 +839,30 @@ footer ul .img-instagram-footer {
   .form-contactame-index {
     width: 10rem;
   }
-}
-@media screen and (min-width: 375px) and (max-width: 378px) {
-  /* EMPIEZA MAIN TITULO */
-  .p-titulo-index {
-    font-size: 4rem;
+  /* EMPIEZA PAG CONTACTAME */
+  .form-input-contactame {
+    width: 33rem;
+    margin-left: 2rem;
   }
-  /* TERMINA MAIN TITULO */
-  /* EMPIEZA SOBRE MI */
-  .sobremi-index {
-    height: 25rem;
-    width: 30rem;
-    margin-top: 38rem;
-    margin-right: -16rem;
+  .textarea-contactame {
+    width: 33rem;
+    margin-left: 2rem;
   }
-  .p-sobremi-index {
-    font-size: 1.7rem;
+  .btn-contactame {
+    width: 33.5rem;
+    margin-left: 1.7rem;
   }
-  .p-sobremi-index b {
-    font-size: 1.7rem;
+  .form-contactame {
+    width: 100%;
+    margin-bottom: 10rem;
   }
-  /* EMPIEZA PROYECTOS */
-  .carousel {
-    display: block;
-    margin-top: 46rem;
+  .container-form-contactame {
+    height: 40rem;
   }
-  .proyectos-index {
-    display: none;
-  }
-  .img-carousel-proyectos {
-    height: 30rem;
-    width: 30.5rem;
-    margin-left: 3.5rem;
-  }
-  .titulo-proyectos-index {
-    position: relative;
-    top: 45rem;
-    left: 0.5rem;
-  }
-  /* TERMINA INDEX */
-  /* EMPIEZA HABILIDADES */
-  .container-img {
-    display: flex;
-    flex-direction: column;
+  .footer-contactame {
     margin-top: 10rem;
-    height: 80rem;
   }
-  .container-img img {
-    margin-left: 3rem;
-  }
-  .subtitulo-habilidades {
-    margin-top: 6rem;
-  }
-  .certificado {
-    display: none;
-  }
-  .container-img-html:hover .certificado-html {
-    display: none;
-  }
-  .container-img-css:hover .certificado-css {
-    display: none;
-  }
-  .container-img-js:hover .certificado-js {
-    display: none;
-  }
-  /* TERMINA HABILIDADES */
-  /* EMPIEZA CONTACTAME */
-  .form-input {
-    width: 30rem;
-  }
-  .textarea-index {
-    width: 30rem;
-  }
-  .btn {
-    margin-left: 21.7rem;
-  }
-  .form-contactame-index {
-    width: 10rem;
-  }
+  /* TERMINA PAG CONTACTAME */
 }
 
 /*# sourceMappingURL=estilo.css.map */

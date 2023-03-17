@@ -1,6 +1,11 @@
 $mainBlack: #000;
 $mainLightBlue: #4498C8;
 @media screen and (min-width: 410px) and (max-width:415px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     /* EMPIEZA MAIN TITULO */
     .container-titulo-index .p-titulo-index{
         font-size: 4.5rem;
@@ -8,24 +13,29 @@ $mainLightBlue: #4498C8;
     /* TERMINA MAIN TITULO */
 
     /* EMPIEZA SOBRE MI */
-    .sobremi-index{
-        height: 25rem;
-        width: 30rem;
-        display: none;
+    .container-sobre-mi{
+        margin-left: 3rem;
+        margin-top: 10rem;
+    }
+
+    .container-sobre-mi .sobremi-index{
+        width: 35rem;
+        height: 31.5rem;
+        box-shadow: 0px 11px 16px 1px $mainLightBlue
     }
 
     .p-sobremi-index{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
-    .p-sobremi-index b{
-        font-size: 1.7rem;
+    .b-sobre-mi{
+        font-size: 1rem;
     }
     
     /* EMPIEZA PROYECTOS */
     .carousel{
         display: block;
-        margin-top: 46rem;
+        margin-top: 16rem;
     }
     
     .proyectos-index{
@@ -39,9 +49,7 @@ $mainLightBlue: #4498C8;
     }
     
     .titulo-proyectos-index{
-        position: relative;
-        top: 45rem;
-        left: .5rem;
+        display: block;
     }
     /* TERMINA PROYECTOS */
 
@@ -50,33 +58,34 @@ $mainLightBlue: #4498C8;
         display: flex;
         flex-direction: column;
         margin-top: 17rem;
-        height: 80rem;
+        height: 94rem;
     }
 
     .container-img img{
         margin-left: 5.8rem;
     }
 
-    .img-html{
-        margin-top: 18rem;
+    .subtitulo-habilidades{
+    margin-left: 16rem;
     }
-
-/*     .subtitulo-habilidades{
-        as;
-    } */
 
     .certificado{
         display: none;
     }
 
+    .certificado-css{
+        top: 136rem;
+        right: 10.5rem;
+    }
+
     .certificado-js{
-        top: 150rem;
-        right: 10rem
+        top: 168rem;
+        right: 10.5rem
     }
 
     .certificado-html{
-        right: 10rem;
-        top: 95rem;
+        right: 10.5rem;
+        top: 105rem;
     }
     /* TERMINA HABILIDADES */
 
@@ -95,11 +104,11 @@ $mainLightBlue: #4498C8;
 
 .form-contactame-index{
     width: 10rem;
-    margin-top: 20rem;
+    margin-top: 22rem;
 }
 
-.h2-contactame{
-    margin-top: 16rem;
+.h2-contactame-index{
+    margin: 17rem;
     margin-left: -.5rem;
 }
 
@@ -107,4 +116,34 @@ $mainLightBlue: #4498C8;
 .proyectos-img-links{
     width: 100%;
 }
+/* TERMINA PAG PROYECTOS */
+/* EMPIEZA PAG CONTACTAME */
+.form-input-contactame{
+    width: 33rem;
+    margin-right: 4.3rem;
+}
+
+.textarea-contactame{
+    width: 33rem;
+    margin-right: 4.3rem;
+}
+
+.btn-contactame{
+    width: 33.5rem;
+    margin-left: 3.4rem;
+}
+
+.form-contactame{
+    width: 41.14rem;
+    margin-bottom: 10rem;
+}
+
+.container-form-contactame{
+    height: 47rem;
+}
+
+.footer-contactame{
+    margin-top: 8rem;
+}
+/* TERMINA PAG CONTACTAME */
 }
