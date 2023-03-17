@@ -146,4 +146,29 @@ $mainLightBlue: #4498C8;
     margin-top: 8rem;
 }
 /* TERMINA PAG CONTACTAME */
+/* EMPIEZA PAG SOBREMI */
+/* EMPIEZA PAG SOBRE MI */
+    .container-texto-sobremi{
+        width: 34rem;
+        margin-top: 3rem;
+        margin-left:4rem;
+        box-shadow: 0px 11px 16px 1px $mainLightBlue;
+    }
+    .container-texto-hobbies{
+        width: 34rem;
+        margin-top: 4rem;
+        margin-left:4rem;
+        box-shadow: 0px 11px 16px 1px $mainLightBlue;
+    }
+
+    .container-textos{
+        display: block;
+    }
+    .texto-sobremi{
+        font-size: 2.1rem;
+    }
+    .texto-hobbies{
+        font-size: 1.95rem;
+    }
+    /* TERMINA PAG SOBREMI */
 }

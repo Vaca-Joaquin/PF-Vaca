@@ -556,6 +556,29 @@ footer ul .img-instagram-footer {
     position: fixed;
     bottom: 0;
   }
+  /*TERMINA PAG CONTACTAME  */
+  /* EMPIEZA PAG SOBRE MI */
+  .container-texto-sobremi {
+    width: 47rem;
+    display: block;
+    margin-top: 20rem;
+  }
+  .container-texto-hobbies {
+    display: block;
+    width: 47rem;
+    margin-top: 20rem;
+  }
+  .texto-sobremi {
+    font-size: 2.47rem;
+  }
+  .texto-hobbies {
+    font-size: 2.39rem;
+  }
+  .footer-sobremi {
+    position: fixed;
+    bottom: 0;
+  }
+  /* TERMINA PAG SOBREMI */
 }
 @media screen and (min-width: 768px) and (max-width: 769px) {
   /* EMPIEZA INDEX */
@@ -638,6 +661,29 @@ footer ul .img-instagram-footer {
     position: fixed;
     bottom: 0;
   }
+  /* TERMINA PAG CONTACTAME */
+  /* EMPIEZA PAG SOBRE MI */
+  .container-texto-sobremi {
+    width: 35rem;
+    display: block;
+    margin-top: 6rem;
+  }
+  .container-texto-hobbies {
+    display: block;
+    width: 35rem;
+    margin-top: 6rem;
+  }
+  .texto-sobremi {
+    font-size: 2.1rem;
+  }
+  .texto-hobbies {
+    font-size: 2rem;
+  }
+  .footer-sobremi {
+    position: fixed;
+    bottom: 0;
+  }
+  /* TERMINA PAG SOBREMI */
 }
 @media screen and (min-width: 410px) and (max-width: 415px) {
   body {
@@ -757,6 +803,30 @@ footer ul .img-instagram-footer {
     margin-top: 8rem;
   }
   /* TERMINA PAG CONTACTAME */
+  /* EMPIEZA PAG SOBREMI */
+  /* EMPIEZA PAG SOBRE MI */
+  .container-texto-sobremi {
+    width: 34rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .container-texto-hobbies {
+    width: 34rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .container-textos {
+    display: block;
+  }
+  .texto-sobremi {
+    font-size: 2.1rem;
+  }
+  .texto-hobbies {
+    font-size: 1.95rem;
+  }
+  /* TERMINA PAG SOBREMI */
 }
 @media screen and (min-width: 375px) and (max-width: 378px) {
   /* EMPIEZA MAIN TITULO */
@@ -863,6 +933,30 @@ footer ul .img-instagram-footer {
     margin-top: 10rem;
   }
   /* TERMINA PAG CONTACTAME */
+  /* EMPIEZA PAG SOBREMI */
+  /* EMPIEZA PAG SOBRE MI */
+  .container-texto-sobremi {
+    width: 34rem;
+    margin-top: 3rem;
+    margin-left: 1.8rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .container-texto-hobbies {
+    width: 34rem;
+    margin-top: 4rem;
+    margin-left: 1.8rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .container-textos {
+    display: block;
+  }
+  .texto-sobremi {
+    font-size: 2.1rem;
+  }
+  .texto-hobbies {
+    font-size: 1.95rem;
+  }
+  /* TERMINA PAG SOBREMI */
 }
 
 /*# sourceMappingURL=estilo.css.map */

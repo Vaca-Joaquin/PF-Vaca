@@ -102,5 +102,28 @@ $mainLightBlue: #4498C8;
         position: fixed;
         bottom: 0;
     }
+    /* TERMINA PAG CONTACTAME */
+        /* EMPIEZA PAG SOBRE MI */
+        .container-texto-sobremi{
+            width: 35rem;
+            display: block;
+            margin-top: 6rem;
+        }
+        .container-texto-hobbies{
+            display: block;
+            width: 35rem;
+            margin-top: 6rem;
+        }
+        .texto-sobremi{
+            font-size: 2.1rem;
+        }
+        .texto-hobbies{
+            font-size: 2rem;
+        }
     
+        .footer-sobremi{
+            position: fixed;
+            bottom: 0;
+        }
+        /* TERMINA PAG SOBREMI */
     }
