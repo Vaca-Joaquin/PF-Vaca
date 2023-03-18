@@ -1,6 +1,6 @@
 $mainBlack: #000;
 $mainLightBlue: #4498C8;
-@media screen and (min-width: 410px) and (max-width:415px){
+@media screen and (min-width: 410px) and (max-width:450px){
 
     body{
         overflow-x: hidden;
@@ -73,19 +73,25 @@ $mainLightBlue: #4498C8;
         display: none;
     }
 
-    .certificado-css{
-        top: 136rem;
-        right: 10.5rem;
+    .container-img-html:hover .certificado-html{
+        display: block;
+        position: absolute;
+        top: 148rem;
+        left: 5rem;
     }
-
-    .certificado-js{
-        top: 168rem;
-        right: 10.5rem
+    
+    .container-img-css:hover .certificado-css{
+        display: block;
+        position: absolute;
+        top: 176rem;
+        left: 5rem;
     }
-
-    .certificado-html{
-        right: 10.5rem;
-        top: 105rem;
+    
+    .container-img-js:hover .certificado-js{
+        display: block;
+        position: absolute;
+        top: 208rem;
+        left: 5rem;
     }
     /* TERMINA HABILIDADES */
 

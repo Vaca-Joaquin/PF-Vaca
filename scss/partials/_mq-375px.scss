@@ -1,6 +1,6 @@
 $mainBlack: #000;
 $mainLightBlue: #4498C8;
-@media screen and (min-width: 375px) and (max-width: 378px){
+@media screen and (min-width: 375px) and (max-width: 400px){
     /* EMPIEZA MAIN TITULO */
     .container-titulo-index .p-titulo-index{
         font-size: 4rem;
@@ -32,10 +32,7 @@ $mainLightBlue: #4498C8;
         display: block;
         margin-top: 15rem;
     }
-    
-    .subtitulo-habilidades{
-        margin-left: 16rem;
-        }
+
 
     .proyectos-index{
         display: none;
@@ -50,6 +47,7 @@ $mainLightBlue: #4498C8;
     .titulo-proyectos-index{
         color: #4498C8;
     }
+
     /* TERMINA INDEX */
 
     /* EMPIEZA HABILIDADES */
@@ -57,15 +55,11 @@ $mainLightBlue: #4498C8;
         display: flex;
         flex-direction: column;
         margin-top: 10rem;
-        height: 80rem;
+        height: 89rem;
     }
 
     .container-img img{
         margin-left: 3rem;
-    }
-
-    .subtitulo-habilidades{
-        margin-top: 6rem;
     }
 
     .certificado{
@@ -73,16 +67,31 @@ $mainLightBlue: #4498C8;
     }
 
     .container-img-html:hover .certificado-html{
-        display: none
+        display: block;
+        position: absolute;
+        top: 133rem;
+        left: 6rem;
     }
     
     .container-img-css:hover .certificado-css{
-        display: none
+        display: block;
+        position: absolute;
+        top: 160rem;
+        left: 6rem;
     }
     
     .container-img-js:hover .certificado-js{
-        display: none
+        display: block;
+        position: absolute;
+        top: 189rem;
+        left: 6rem;
     }
+    
+
+        
+    .subtitulo-habilidades{
+        margin-left: 14rem;
+        }
     /* TERMINA HABILIDADES */
 
 /* EMPIEZA CONTACTAME */
@@ -100,6 +109,10 @@ $mainLightBlue: #4498C8;
 
 .form-contactame-index{
     width: 10rem;
+}
+.h2-contactame-index{
+    margin-top: 4rem;
+    margin-left: -.5rem;
 }
 /* EMPIEZA PAG CONTACTAME */
 .form-input-contactame{
@@ -155,4 +168,10 @@ $mainLightBlue: #4498C8;
         font-size: 1.95rem;
     }
     /* TERMINA PAG SOBREMI */
+    /* EMPIEZA PAG PROYECTOS */
+    .proyectos-img-links{
+        width: 100%;
+        
+    }
+    /* TERMINA PAG PROYECTOS */
 }
