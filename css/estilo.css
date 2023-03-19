@@ -509,8 +509,8 @@ footer ul .img-instagram-footer {
 @media screen and (min-width: 1024px) and (max-width: 1100px) {
   /* EMPIEZA SOBRE MI */
   .container-sobre-mi {
-    margin-left: 25rem;
-    margin-top: 9rem;
+    margin-right: 15rem;
+    margin-top: 34rem;
   }
   /* TERMINA SOBRE MI */
   /* EMPIEZA PROYECTOS */
@@ -521,7 +521,7 @@ footer ul .img-instagram-footer {
     width: 28rem;
   }
   .certificado {
-    top: 136rem;
+    top: 131rem;
   }
   .carousel {
     display: block;
@@ -607,8 +607,8 @@ footer ul .img-instagram-footer {
   /* EMPIEZA INDEX */
   /* EMPIEZA SOBRE MI */
   .container-sobre-mi {
-    margin-left: 12.5rem;
-    margin-top: 10rem;
+    margin-right: 3rem;
+    margin-top: 36rem;
   }
   .sobremi-index {
     box-shadow: 0px 11px 16px 1px #4498C8;
@@ -638,7 +638,7 @@ footer ul .img-instagram-footer {
     width: 25rem;
   }
   .certificado {
-    top: 152rem;
+    top: 150rem;
   }
   /* TERMINA HABILIDADES */
   /* EMPIEZA CONTACTAME */
@@ -757,8 +757,8 @@ footer ul .img-instagram-footer {
   /* TERMINA MAIN TITULO */
   /* EMPIEZA SOBRE MI */
   .container-sobre-mi {
-    margin-left: 3rem;
-    margin-top: 10rem;
+    margin-right: -7.3rem;
+    margin-top: 37rem;
   }
   .container-sobre-mi .sobremi-index {
     width: 35rem;
@@ -807,7 +807,7 @@ footer ul .img-instagram-footer {
   .container-img-html:hover .certificado-html {
     display: block;
     position: absolute;
-    top: 148rem;
+    top: 146rem;
     left: 5rem;
   }
   .container-img-css:hover .certificado-css {
@@ -931,8 +931,8 @@ footer ul .img-instagram-footer {
   /* TERMINA MAIN TITULO */
   /* EMPIEZA SOBRE MI */
   .container-sobre-mi {
-    margin-left: 3.3rem;
-    margin-top: 10rem;
+    margin-right: -7rem;
+    margin-top: 37rem;
   }
   .container-sobre-mi .sobremi-index {
     width: 30rem;
@@ -978,7 +978,7 @@ footer ul .img-instagram-footer {
   .container-img-html:hover .certificado-html {
     display: block;
     position: absolute;
-    top: 133rem;
+    top: 130rem;
     left: 6rem;
   }
   .container-img-css:hover .certificado-css {
