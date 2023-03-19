@@ -12,6 +12,12 @@ $mainLightBlue: #4498C8;
     .sobremi-index{
         box-shadow: 0px 11px 16px 1px $mainLightBlue;
     }
+    .sobremi-flex {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -12rem;
+        margin-top: 0rem;
     /* TERMINA CONTACTAME */
     /* EMPIEZA PROYECTOS */
     .carousel{
@@ -166,4 +172,5 @@ $mainLightBlue: #4498C8;
     .footer-habilidades{
         margin-top: 80rem;
     }
-    }
+}
+}
