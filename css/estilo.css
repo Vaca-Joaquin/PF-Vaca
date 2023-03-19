@@ -506,6 +506,156 @@ footer ul .img-instagram-footer {
   background-color: #4498C8;
 }
 
+@media screen and (min-width: 767px) and (max-width: 769px) {
+  /* EMPIEZA INDEX */
+  /* EMPIEZA SOBRE MI */
+  .container-sobre-mi {
+    margin-right: 5rem;
+    margin-top: 36rem;
+  }
+  .sobremi-index {
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .sobremi-flex {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -7rem;
+    margin-top: -30rem;
+  }
+  /* TERMINA CONTACTAME */
+  /* EMPIEZA PROYECTOS */
+  .carousel {
+    display: block;
+    margin-top: 18rem;
+  }
+  .proyectos-index {
+    display: none;
+  }
+  .img-carousel-proyectos {
+    height: 30rem;
+    width: 60rem;
+    margin-left: 8rem;
+  }
+  .titulo-proyectos-index {
+    position: relative;
+    top: 17rem;
+    left: 0.1rem;
+  }
+  /* TERMINA PROYECTOS */
+  /* EMPIEZA HABILIDADES */
+  .img-hb {
+    width: 23rem;
+  }
+  .certificado {
+    top: 150rem;
+  }
+  /* TERMINA HABILIDADES */
+  /* EMPIEZA CONTACTAME */
+  .form-input {
+    width: 64rem;
+  }
+  .textarea-index {
+    width: 64rem;
+  }
+  .btn {
+    margin-left: 55.7rem;
+  }
+  .input-name {
+    margin-left: 0.1rem;
+  }
+  /* TERMINA CONTACTAME */
+  /* EMPIEZA FOOTER */
+  .img-footer {
+    height: 3rem;
+  }
+  .img-instagram-footer {
+    height: 2.6rem;
+    width: 4.5rem;
+  }
+  /* EMPIEZA PAG PROYECTOS */
+  .proyectos-img-links {
+    width: 38.2rem;
+    height: 22rem;
+    object-fit: cover;
+  }
+  .proyecto-netflix {
+    width: 76.4rem;
+    height: 22rem;
+  }
+  /* EMPIEZA PAG CONTACTAME */
+  .form-contactame {
+    margin-left: -3rem;
+  }
+  .btn-contactame {
+    width: 66rem;
+  }
+  .footer-contactame {
+    position: fixed;
+    bottom: 0;
+  }
+  /* TERMINA PAG CONTACTAME */
+  /* EMPIEZA PAG SOBRE MI */
+  .container-texto-sobremi {
+    width: 35rem;
+    display: block;
+    margin-top: 6rem;
+  }
+  .container-texto-hobbies {
+    display: block;
+    width: 35rem;
+    margin-top: 6rem;
+  }
+  .texto-sobremi {
+    font-size: 2.135rem;
+  }
+  .texto-hobbies {
+    font-size: 2rem;
+  }
+  .footer-sobremi {
+    position: fixed;
+    bottom: 0;
+  }
+  /* TERMINA PAG SOBREMI */
+  /* EMPIEZA PAG PROYECTOS */
+  /*EMPIEZA PAG CONTACTAME  */
+  .btn-contactame {
+    width: 65.8rem;
+  }
+  .footer-contactame {
+    position: fixed;
+    bottom: 0;
+  }
+  /*TERMINA PAG CONTACTAME  */
+  /* EMPIEZA PAG HABILIDADES */
+  .habilidades-frontend {
+    margin-left: 10rem;
+    font-size: 8rem;
+    margin-top: 1rem;
+    width: 58rem;
+  }
+  .container-texto-habilidades {
+    margin-left: 1.7rem;
+    margin-top: 5rem;
+    width: 73rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .texto-habilidades {
+    font-size: 3rem;
+  }
+  .container-all-habilidades {
+    margin-left: 32rem;
+    margin-top: 12rem;
+  }
+  .img-pag-hb {
+    width: 21rem;
+    height: 21rem;
+    margin-left: -2rem;
+  }
+  .footer-habilidades {
+    margin-top: 80rem;
+  }
+}
 @media screen and (min-width: 1024px) and (max-width: 1100px) {
   /* EMPIEZA SOBRE MI */
   .container-sobre-mi {
@@ -602,156 +752,6 @@ footer ul .img-instagram-footer {
     bottom: 0;
   }
   /* TERMINA IPAD PRO */
-}
-@media screen and (min-width: 767px) and (max-width: 769px) {
-  /* EMPIEZA INDEX */
-  /* EMPIEZA SOBRE MI */
-  .container-sobre-mi {
-    margin-right: 3rem;
-    margin-top: 36rem;
-  }
-  .sobremi-index {
-    box-shadow: 0px 11px 16px 1px #4498C8;
-  }
-  .sobremi-flex {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: -12rem;
-    margin-top: 0rem;
-    /* TERMINA CONTACTAME */
-    /* EMPIEZA PROYECTOS */
-    /* TERMINA PROYECTOS */
-    /* EMPIEZA HABILIDADES */
-    /* TERMINA HABILIDADES */
-    /* EMPIEZA CONTACTAME */
-    /* TERMINA CONTACTAME */
-    /* EMPIEZA FOOTER */
-    /* EMPIEZA PAG PROYECTOS */
-    /* EMPIEZA PAG CONTACTAME */
-    /* TERMINA PAG CONTACTAME */
-    /* EMPIEZA PAG SOBRE MI */
-    /* TERMINA PAG SOBREMI */
-    /* EMPIEZA PAG PROYECTOS */
-    /*EMPIEZA PAG CONTACTAME  */
-    /*TERMINA PAG CONTACTAME  */
-    /* EMPIEZA PAG HABILIDADES */
-  }
-  .sobremi-flex .carousel {
-    display: block;
-    margin-top: 18rem;
-  }
-  .sobremi-flex .proyectos-index {
-    display: none;
-  }
-  .sobremi-flex .img-carousel-proyectos {
-    height: 30rem;
-    width: 60rem;
-    margin-left: 8rem;
-  }
-  .sobremi-flex .titulo-proyectos-index {
-    position: relative;
-    top: 17rem;
-    left: 0.1rem;
-  }
-  .sobremi-flex .img-hb {
-    width: 25rem;
-  }
-  .sobremi-flex .certificado {
-    top: 150rem;
-  }
-  .sobremi-flex .form-input {
-    width: 64rem;
-  }
-  .sobremi-flex .textarea-index {
-    width: 64rem;
-  }
-  .sobremi-flex .btn {
-    margin-left: 55.7rem;
-  }
-  .sobremi-flex .input-name {
-    margin-left: 0.1rem;
-  }
-  .sobremi-flex .img-footer {
-    height: 3rem;
-  }
-  .sobremi-flex .img-instagram-footer {
-    height: 2.6rem;
-    width: 4.5rem;
-  }
-  .sobremi-flex .proyectos-img-links {
-    width: 38.2rem;
-    height: 22rem;
-    object-fit: cover;
-  }
-  .sobremi-flex .proyecto-netflix {
-    width: 76.4rem;
-    height: 22rem;
-  }
-  .sobremi-flex .form-contactame {
-    margin-left: -3rem;
-  }
-  .sobremi-flex .btn-contactame {
-    width: 66rem;
-  }
-  .sobremi-flex .footer-contactame {
-    position: fixed;
-    bottom: 0;
-  }
-  .sobremi-flex .container-texto-sobremi {
-    width: 35rem;
-    display: block;
-    margin-top: 6rem;
-  }
-  .sobremi-flex .container-texto-hobbies {
-    display: block;
-    width: 35rem;
-    margin-top: 6rem;
-  }
-  .sobremi-flex .texto-sobremi {
-    font-size: 2.135rem;
-  }
-  .sobremi-flex .texto-hobbies {
-    font-size: 2rem;
-  }
-  .sobremi-flex .footer-sobremi {
-    position: fixed;
-    bottom: 0;
-  }
-  .sobremi-flex .btn-contactame {
-    width: 65.8rem;
-  }
-  .sobremi-flex .footer-contactame {
-    position: fixed;
-    bottom: 0;
-  }
-  .sobremi-flex .habilidades-frontend {
-    margin-left: 10rem;
-    font-size: 8rem;
-    margin-top: 1rem;
-    width: 58rem;
-  }
-  .sobremi-flex .container-texto-habilidades {
-    margin-left: 1.7rem;
-    margin-top: 5rem;
-    width: 73rem;
-    box-shadow: 0px 11px 16px 1px #4498C8;
-  }
-  .sobremi-flex .texto-habilidades {
-    font-size: 3rem;
-  }
-  .sobremi-flex .container-all-habilidades {
-    margin-left: 32rem;
-    margin-top: 12rem;
-  }
-  .sobremi-flex .img-pag-hb {
-    width: 21rem;
-    height: 21rem;
-    margin-left: -2rem;
-  }
-  .sobremi-flex .footer-habilidades {
-    margin-top: 80rem;
-  }
 }
 @media screen and (min-width: 410px) and (max-width: 450px) {
   body {

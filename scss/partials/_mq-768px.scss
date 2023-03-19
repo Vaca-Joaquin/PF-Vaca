@@ -5,7 +5,7 @@ $mainLightBlue: #4498C8;
     /* EMPIEZA SOBRE MI */
     
     .container-sobre-mi{
-        margin-right: 3rem;
+        margin-right: 5rem;
         margin-top: 36rem;
     }
     
@@ -16,15 +16,16 @@ $mainLightBlue: #4498C8;
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        margin-left: -12rem;
-        margin-top: 0rem;
+        margin-left: -7rem;
+        margin-top: -30rem;
+    }
     /* TERMINA CONTACTAME */
     /* EMPIEZA PROYECTOS */
     .carousel{
         display: block;
         margin-top: 18rem;
     }
-    
+
     .proyectos-index{
         display: none;
     }
@@ -44,7 +45,7 @@ $mainLightBlue: #4498C8;
     /* EMPIEZA HABILIDADES */
     
     .img-hb{
-        width: 25rem ;
+        width: 23rem ;
     }
     
     .certificado{
@@ -132,7 +133,7 @@ $mainLightBlue: #4498C8;
             bottom: 0;
         }
         /* TERMINA PAG SOBREMI */
-            /* EMPIEZA PAG PROYECTOS */
+        /* EMPIEZA PAG PROYECTOS */
 
     /*EMPIEZA PAG CONTACTAME  */
     .btn-contactame{
@@ -172,5 +173,4 @@ $mainLightBlue: #4498C8;
     .footer-habilidades{
         margin-top: 80rem;
     }
-}
 }
