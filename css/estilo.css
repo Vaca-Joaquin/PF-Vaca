@@ -88,11 +88,15 @@ header {
 
 /* TERMINA TITULO */
 /* EMPIEZA SOBRE MI */
-.container-sobre-mi {
-  margin-left: 120rem;
+.sobremi-flex {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -10rem;
   margin-top: -30rem;
 }
-.container-sobre-mi .sobremi-index {
+
+.sobremi-index {
   color: #fff;
   background-color: #000;
   height: 30rem;
@@ -104,11 +108,11 @@ header {
   box-shadow: 9px 11px 16px 1px #4498C8;
   display: flex;
 }
-.container-sobre-mi .sobremi-index .p-sobremi-index {
+.sobremi-index .p-sobremi-index {
   margin: 0.8rem;
   text-shadow: -1px 1px 0px rgb(68, 152, 200);
 }
-.container-sobre-mi .sobremi-index .p-sobremi-index .b-sobre-mi {
+.sobremi-index .p-sobremi-index .b-sobre-mi {
   font-size: 1.8rem;
   background: -webkit-linear-gradient(45deg, #fff, #4498C8 80%);
   -webkit-background-clip: text;
@@ -140,6 +144,7 @@ header {
   margin-top: 60px;
   width: 50vh;
   height: 19.7rem;
+  max-width: 90%;
   border-radius: 8px;
 }
 
@@ -337,7 +342,7 @@ footer ul .img-instagram-footer {
 }
 
 .texto-habilidades {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin: 0.7rem;
 }
 
@@ -580,8 +585,25 @@ footer ul .img-instagram-footer {
     bottom: 0;
   }
   /* TERMINA PAG SOBREMI */
+  /* EMPIEZA PAG HABILIDADES */
+  .habilidades-frontend {
+    margin-left: 62rem;
+    font-size: 5rem;
+  }
+  .container-texto-habilidades {
+    margin-left: 6rem;
+    margin-top: 14rem;
+  }
+  .container-all-habilidades {
+    margin-left: 72rem;
+  }
+  .footer-habilidades {
+    position: fixed;
+    bottom: 0;
+  }
+  /* TERMINA IPAD PRO */
 }
-@media screen and (min-width: 768px) and (max-width: 820px) {
+@media screen and (min-width: 767px) and (max-width: 769px) {
   /* EMPIEZA INDEX */
   /* EMPIEZA SOBRE MI */
   .container-sobre-mi {
@@ -675,7 +697,7 @@ footer ul .img-instagram-footer {
     margin-top: 6rem;
   }
   .texto-sobremi {
-    font-size: 2.1rem;
+    font-size: 2.135rem;
   }
   .texto-hobbies {
     font-size: 2rem;
@@ -685,6 +707,44 @@ footer ul .img-instagram-footer {
     bottom: 0;
   }
   /* TERMINA PAG SOBREMI */
+  /* EMPIEZA PAG PROYECTOS */
+  /*EMPIEZA PAG CONTACTAME  */
+  .btn-contactame {
+    width: 65.8rem;
+  }
+  .footer-contactame {
+    position: fixed;
+    bottom: 0;
+  }
+  /*TERMINA PAG CONTACTAME  */
+  /* EMPIEZA PAG HABILIDADES */
+  .habilidades-frontend {
+    margin-left: 10rem;
+    font-size: 8rem;
+    margin-top: 1rem;
+    width: 58rem;
+  }
+  .container-texto-habilidades {
+    margin-left: 1.7rem;
+    margin-top: 5rem;
+    width: 73rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .texto-habilidades {
+    font-size: 3rem;
+  }
+  .container-all-habilidades {
+    margin-left: 32rem;
+    margin-top: 12rem;
+  }
+  .img-pag-hb {
+    width: 21rem;
+    height: 21rem;
+    margin-left: -2rem;
+  }
+  .footer-habilidades {
+    margin-top: 80rem;
+  }
 }
 @media screen and (min-width: 410px) and (max-width: 450px) {
   body {
@@ -834,6 +894,34 @@ footer ul .img-instagram-footer {
     font-size: 1.95rem;
   }
   /* TERMINA PAG SOBREMI */
+  /* EMPIEZA PAG HABILIDADES */
+  .habilidades-frontend {
+    margin-left: 6rem;
+    font-size: 4.2rem;
+    margin-top: 1rem;
+    width: 30rem;
+  }
+  .container-texto-habilidades {
+    margin-left: 2rem;
+    margin-top: 5rem;
+    width: 38rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .texto-habilidades {
+    font-size: 2.2rem;
+  }
+  .container-all-habilidades {
+    margin-left: 13rem;
+    margin-top: 10rem;
+  }
+  .img-pag-hb {
+    width: 20rem;
+    height: 20rem;
+    margin-left: -2rem;
+  }
+  .footer-habilidades {
+    margin-top: 76rem;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 400px) {
   /* EMPIEZA MAIN TITULO */
@@ -979,6 +1067,34 @@ footer ul .img-instagram-footer {
     width: 100%;
   }
   /* TERMINA PAG PROYECTOS */
+  /* EMPIEZA PAG HABILIDADES */
+  .habilidades-frontend {
+    margin-left: 4rem;
+    font-size: 4.2rem;
+    margin-top: 1rem;
+    width: 30rem;
+  }
+  .container-texto-habilidades {
+    margin-left: 1rem;
+    margin-top: 5rem;
+    width: 35.5rem;
+    box-shadow: 0px 11px 16px 1px #4498C8;
+  }
+  .texto-habilidades {
+    font-size: 2.1rem;
+  }
+  .container-all-habilidades {
+    margin-left: 11.6rem;
+    margin-top: 10rem;
+  }
+  .img-pag-hb {
+    width: 20rem;
+    height: 20rem;
+    margin-left: -2rem;
+  }
+  .footer-habilidades {
+    margin-top: 77rem;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
