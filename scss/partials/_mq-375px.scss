@@ -1,6 +1,6 @@
 $mainBlack: #000;
 $mainLightBlue: #4498C8;
-@media screen and (min-width: 375px) and (max-width: 400px){
+@media screen and (min-width: 360px) and (max-width: 400px){
     /* EMPIEZA MAIN TITULO */
     .container-titulo-index .p-titulo-index{
         font-size: 4rem;
@@ -128,6 +128,7 @@ $mainLightBlue: #4498C8;
 .btn-contactame{
     width: 33.5rem;
     margin-left: 1.7rem;
+    margin-top: 2rem;
 }
 
 .form-contactame{
@@ -136,10 +137,11 @@ $mainLightBlue: #4498C8;
 }
 
 .container-form-contactame{
-    height: 40rem;
+    height: 43.5rem;
 }
 
 .footer-contactame{
+    position: relative;
     margin-top: 10rem;
 }
 /* TERMINA PAG CONTACTAME */

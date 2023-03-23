@@ -468,6 +468,7 @@ footer ul .img-instagram-footer {
   font-size: 1.2rem;
   margin-top: 3rem;
   margin-left: 4rem;
+  display: block;
 }
 
 .form-input-contactame:focus {
@@ -495,10 +496,12 @@ footer ul .img-instagram-footer {
 
 .btn-contactame {
   width: 66.8rem;
-  margin-left: 3.9rem;
+  margin-left: 4.2rem;
   height: 3rem;
   border: none;
   border-radius: 1.5rem;
+  display: block;
+  margin-top: 2rem;
 }
 
 .btn-contactame:hover {
@@ -590,10 +593,14 @@ footer ul .img-instagram-footer {
   }
   /* EMPIEZA PAG CONTACTAME */
   .form-contactame {
-    margin-left: -3rem;
+    margin-left: -4rem;
   }
   .btn-contactame {
     width: 66rem;
+    margin-top: 2rem;
+  }
+  .textarea-contactame {
+    margin-left: 4rem;
   }
   .footer-contactame {
     position: fixed;
@@ -712,6 +719,13 @@ footer ul .img-instagram-footer {
   /*EMPIEZA PAG CONTACTAME  */
   .btn-contactame {
     width: 65.8rem;
+    margin-top: 2rem;
+  }
+  .textarea-contactame {
+    margin-left: 4rem;
+  }
+  .form-contactame {
+    margin-left: -4rem;
   }
   .footer-contactame {
     position: fixed;
@@ -865,11 +879,12 @@ footer ul .img-instagram-footer {
   }
   .textarea-contactame {
     width: 33rem;
-    margin-right: 4.3rem;
+    margin-left: 4rem;
   }
   .btn-contactame {
     width: 33.5rem;
-    margin-left: 3.4rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
   }
   .form-contactame {
     width: 41.14rem;
@@ -936,7 +951,7 @@ footer ul .img-instagram-footer {
     margin-top: 76rem;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 400px) {
+@media screen and (min-width: 360px) and (max-width: 400px) {
   /* EMPIEZA MAIN TITULO */
   .container-titulo-index .p-titulo-index {
     font-size: 4rem;
@@ -1039,15 +1054,17 @@ footer ul .img-instagram-footer {
   .btn-contactame {
     width: 33.5rem;
     margin-left: 1.7rem;
+    margin-top: 2rem;
   }
   .form-contactame {
     width: 100%;
     margin-bottom: 10rem;
   }
   .container-form-contactame {
-    height: 40rem;
+    height: 43.5rem;
   }
   .footer-contactame {
+    position: relative;
     margin-top: 10rem;
   }
   /* TERMINA PAG CONTACTAME */

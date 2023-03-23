@@ -42,6 +42,7 @@ $mainLightBlue: #4498C8;
     font-size: 1.2rem;
     margin-top: 3rem;
     margin-left: 4rem;
+    display: block;
 }
 
 .form-input-contactame:focus{
@@ -70,10 +71,12 @@ $mainLightBlue: #4498C8;
 
 .btn-contactame{
     width: 66.8rem;
-    margin-left: 3.9rem;
+    margin-left: 4.2rem;
     height: 3rem;
     border: none;
     border-radius: 1.5rem;
+    display: block;
+    margin-top: 2rem;
 }
 
 .btn-contactame:hover{
