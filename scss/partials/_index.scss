@@ -8,7 +8,7 @@ $mainLightBlue: #4498C8;
         .p-titulo-index{
                 margin-left: 3rem;
                 font-size: 7.5rem;
-                background: -webkit-linear-gradient(45deg, #fff, $mainLightBlue 25%);
+                background: -webkit-linear-gradient(45deg, #fff, $mainLightBlue 50%);
                 -webkit-background-clip: text;
                 background-clip: var() ;
                 -webkit-text-fill-color: transparent;
@@ -52,6 +52,10 @@ $mainLightBlue: #4498C8;
                 font-size: 2.5rem;
                 }
         }
+    }
+
+    .titulo-index-web{
+        display: inline;
     }
 
 /* TERMINA SOBRE MI */
