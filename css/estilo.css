@@ -316,8 +316,7 @@ footer ul .img-instagram-footer {
 
 .proyectos-img-links {
   width: 37.8rem;
-  height: 29rem;
-  object-fit: cover;
+  height: 29.35rem;
 }
 
 .container-titulo-habilidades {
@@ -812,7 +811,7 @@ footer ul .img-instagram-footer {
   .img-carousel-proyectos {
     height: 30rem;
     width: 33.5rem;
-    margin-left: 3.8rem;
+    margin-left: 4.5rem;
   }
   .titulo-proyectos-index {
     display: block;
